@@ -14,7 +14,8 @@ class Main extends CI_Controller{
 		//$data['sql'] = $this->Video_model->allvideo();
 		$semua_video = $this->db->query('select * from video')->result_array();
 		$data = array(
-			'semua_video' => $semua_video
+			'semua_video' => $semua_video,
+			'title'		  => 'Dakwah Islam'
 		); 
 		$this->load->view('header',$data);
 		$this->load->view('index');

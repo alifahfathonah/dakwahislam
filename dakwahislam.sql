@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 31, 2017 at 03:29 PM
+-- Generation Time: Oct 31, 2017 at 04:36 PM
 -- Server version: 10.1.13-MariaDB
 -- PHP Version: 7.0.6
 
@@ -277,9 +277,7 @@ INSERT INTO `video` (`id_video`, `judul`, `image`, `link_video`, `kategori`, `st
 (9, 'Adakah Dimensi Waktu di Alam Barzah? | Ustadz Dr Khalid Basalamah MA', 'file_1509341685.jpg', 'https://www.youtube.com/watch?v=CcUrc-qDw8o', 3, 'Publish', '2017-10-30 12:34:45'),
 (10, 'Tujuan Allah Ciptakan Manusia | Ustadz Dr Khalid Basalamah MA', 'file_1509341853.jpg', 'https://www.youtube.com/watch?v=0t6nKPNN6W8', 3, 'Publish', '2017-10-30 12:37:33'),
 (11, 'Hadist ini Telah Terjadi Di Zaman Kita | Ustadz Dr Khalid Basalamah MA', 'file_1509342076.jpg', 'https://www.youtube.com/watch?v=no7QgfojYks', 3, 'Publish', '2017-10-30 12:41:16'),
-(12, 'Jangan pernah berdusta atas nama Nabi Muhammad SAW – Ustadz Khalid Basalamah', 'file_1509342205.jpg', 'https://www.youtube.com/watch?v=AO2YvzIjxrU', 3, 'Publish', '2017-10-30 12:44:38'),
-(13, 'asdfasdf', 'file_1509430023.jpg', 'asdfasdfasdf', 0, 'Publish', '2017-10-31 13:07:03'),
-(14, 'testetawetaet', 'file_1509430248.jpg', 'taearwerawerawserawer', 5, 'Publish', '2017-10-31 13:10:48');
+(12, 'Jangan pernah berdusta atas nama Nabi Muhammad SAW – Ustadz Khalid Basalamah', 'file_1509342205.jpg', 'https://www.youtube.com/watch?v=AO2YvzIjxrU', 3, 'Publish', '2017-10-30 12:44:38');
 
 --
 -- Indexes for dumped tables

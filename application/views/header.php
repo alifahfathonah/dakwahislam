@@ -8,7 +8,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>BigShow - Movie / Film / Cinema Template</title>
+    <title><?=$title ?></title>
     <meta name="description" content="Bigshow is a template to jump start campaigning your various kind of movie or tv show">
 
     <!-- External CSS -->
@@ -26,10 +26,10 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600" rel="stylesheet">
 
     <!-- Favicon -->
-    <link rel="icon" href="<?php echo base_url()?>assets_front/images/template/favicon.png">
+    <link rel="icon" href="<?php echo base_url()?>assets_front/images/template/dfavicon.png">
     <link rel="apple-touch-icon" href="<?php echo base_url()?>assets_front/images/template/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="<?php echo base_url()?>assets_front/images/template/icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="<?php echo base_url()?>assets_front/images/template/icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="<?php echo base_url()?>assets_front/images/template/d72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="<?php echo base_url()?>assets_front/images/template/d114.png">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -100,29 +100,9 @@
                     <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
                 </form>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="tv-show.html">TV Show</a></li>
-                    <li class="dropdown">
-                        <a href="movie-list.html">Movies</a>
-                        <ul class="dropdown-menu">
-                            <li><a href="movie-list.html">English</a></li>
-                            <li><a href="movie-list.html">Hindi</a></li>
-                            <li><a href="movie-list.html">Chinees</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Sports</a></li>
-                    <li class="dropdown">
-                        <a href="#">Pages</a>
-                        <ul class="dropdown-menu">
-                            <li><a href="movie-list.html">Movies</a></li>
-                            <li><a href="movie-detail.html">Movie Detail</a></li>
-                            <li><a href="tv-show.html">TV Show</a></li>
-                            <li><a href="celebrities.html">Celebrities</a></li>
-                            <li><a href="celebrity-detail.html">Celebrity Details</a></li>
-                            <li><a href="news.html">News</a></li>
-                            <li><a href="news-detail.html">News Details</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="news.html">News</a></li>
+                    <li><a href="tv-show.html">Beranda</a></li>
+                    <li><a href="tv-show.html">Film Islam</a></li>
+                    <li><a href="tv-show.html">Dakwah Islam</a></li>
                 </ul>
             </div>
         </div>
